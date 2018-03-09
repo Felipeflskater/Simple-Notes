@@ -1,0 +1,77 @@
+object Form2: TForm2
+  Left = 276
+  Top = 174
+  Width = 480
+  Height = 366
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Form2'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 8
+    Width = 449
+    Height = 313
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 104
+      Top = 64
+      Width = 217
+      Height = 40
+      Caption = 'Digita f'#225'cil'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -32
+      Font.Name = 'Showcard Gothic'
+      Font.Style = [fsBold, fsItalic]
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 168
+      Top = 120
+      Width = 90
+      Height = 24
+      Caption = 'Vers'#227'o 1.0'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 96
+      Top = 160
+      Width = 226
+      Height = 16
+      Caption = 'Nesta label digite seu nome completo'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Fechar: TButton
+      Left = 152
+      Top = 248
+      Width = 113
+      Height = 41
+      Caption = 'Fechar'
+      TabOrder = 0
+      OnClick = FecharClick
+    end
+  end
+  object XPManifest1: TXPManifest
+    Left = 424
+    Top = 288
+  end
+end
