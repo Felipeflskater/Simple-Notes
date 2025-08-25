@@ -1,6 +1,6 @@
 # 📝 Simple Notes
 
-![Interface do Aplicativo](imagens/app.png)
+![Interface do Aplicativo](https://github.com/Felipeflskater/Simple-Notes/blob/master/imagens/App.png?raw=true)
 
 Aplicação de bloco de notas simples desenvolvida em **Delphi 7 (Object Pascal)** como parte de um estudo prático de programação desktop. O projeto oferece funcionalidades básicas de edição de texto, com suporte a **salvar, abrir arquivos e imprimir**.
 
